@@ -34,14 +34,14 @@ public class Ghost : MonoBehaviour
 		}
         else if(PlayerPrefs.GetInt("PumpkinRight") == 1)
         {
-			transform.position = new Vector2(transform.position.x - MoveSpeed, transform.position.y);
+			transform.position = new Vector2(transform.position.x - MoveSpeed * Time.deltaTime, transform.position.y);
             GhostIdle.SetActive(false);
             GhostLeft.SetActive(true);
             GhostRight.SetActive(false);
         }
         else if(PlayerPrefs.GetInt("PumpkinLeft") == 1)
         {
-			transform.position = new Vector2(transform.position.x + MoveSpeed, transform.position.y);
+			transform.position = new Vector2(transform.position.x + MoveSpeed * Time.deltaTime, transform.position.y);
             GhostIdle.SetActive(false);
 			GhostLeft.SetActive(false);
             GhostRight.SetActive(true);
@@ -63,7 +63,7 @@ public class Ghost : MonoBehaviour
 		}
 		else if(PlayerPrefs.GetInt("PumpkinTop") == 1)
         {
-			transform.position = new Vector2(transform.position.x, transform.position.y - MoveSpeed);
+			transform.position = new Vector2(transform.position.x, transform.position.y - MoveSpeed * Time.deltaTime);
             GhostIdle.SetActive(false);
             GhostUp.SetActive(false);
             GhostDown.SetActive(true);
@@ -72,7 +72,7 @@ public class Ghost : MonoBehaviour
         }
         else if(PlayerPrefs.GetInt("PumpkinBottom") == 1)
         {
-			transform.position = new Vector2(transform.position.x, transform.position.y + MoveSpeed);
+			transform.position = new Vector2(transform.position.x, transform.position.y + MoveSpeed * Time.deltaTime);
             GhostIdle.SetActive(false);
             GhostUp.SetActive(true);
             GhostDown.SetActive(false);
