@@ -138,6 +138,9 @@ public class Ghost : MonoBehaviour
 				SceneManager.LoadScene("Level6", LoadSceneMode.Single);
 				break;
 			case "Level6":
+				SceneManager.LoadScene("Level7", LoadSceneMode.Single);
+				break;
+			case "Level7":
 				SceneManager.LoadScene("GameCompleted", LoadSceneMode.Single);
 				break;
 		}
