@@ -2,8 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Ghost
+    - PlatformAdaptation
     - PumpkinHandler
     - SceneLoader
+    - Zombie
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -84,7 +86,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,7 +155,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,7 +224,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -291,7 +293,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -360,7 +362,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -429,7 +431,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -498,7 +500,149 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3984}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Level7.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1514}
+    - Class: 114
+      Script: {instanceID: 2202}
+    - Class: 114
+      Script: {instanceID: 2616}
+    - Class: 114
+      Script: {instanceID: 2776}
+    - Class: 114
+      Script: {instanceID: 2992}
+    - Class: 114
+      Script: {instanceID: 3236}
+    - Class: 114
+      Script: {instanceID: 3270}
+    - Class: 114
+      Script: {instanceID: 3350}
+    - Class: 114
+      Script: {instanceID: 3416}
+    - Class: 114
+      Script: {instanceID: 3892}
+    - Class: 114
+      Script: {instanceID: 3984}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Level8.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1514}
+    - Class: 114
+      Script: {instanceID: 2202}
+    - Class: 114
+      Script: {instanceID: 2616}
+    - Class: 114
+      Script: {instanceID: 2776}
+    - Class: 114
+      Script: {instanceID: 2992}
+    - Class: 114
+      Script: {instanceID: 3236}
+    - Class: 114
+      Script: {instanceID: 3270}
+    - Class: 114
+      Script: {instanceID: 3350}
+    - Class: 114
+      Script: {instanceID: 3416}
+    - Class: 114
+      Script: {instanceID: 3892}
+    - Class: 114
+      Script: {instanceID: 3984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -559,7 +703,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3984}
+    - Class: 114
+      Script: {instanceID: 4116}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -899,6 +1045,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 4e97ebe8ac0c84bc1c96ed420afec880
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Zombie
+  - hash:
+      serializedVersion: 2
       Hash: da4cc51a02ce84afe2cecd27cfe6997a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -945,6 +1097,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 22846a7b50883970033a17bb119a5556
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlatformAdaptation
   - hash:
       serializedVersion: 2
       Hash: 87cef3c82381dc586f6772c3e27561b6
@@ -1123,4 +1281,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level4.unity
   - Assets/Scenes/Level5.unity
   - Assets/Scenes/Level6.unity
+  - Assets/Scenes/Level7.unity
+  - Assets/Scenes/Level8.unity
   playerPath: C:/Users/Techc/Desktop/Jack's Trail/Jack's Trail.exe

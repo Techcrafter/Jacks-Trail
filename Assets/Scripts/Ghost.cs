@@ -112,7 +112,14 @@ public class Ghost : MonoBehaviour
 	{
 		PlayerPrefs.SetInt("ResetPumpkins", 1);
 		DieAudio.GetComponent<AudioSource>().Play();
-		transform.position = new Vector2(PlayerPrefs.GetFloat("GhostStartPositionX"), PlayerPrefs.GetFloat("GhostStartPositionY"));
+		if(SceneManager.GetActiveScene().name == "Level8")
+		{
+			SceneManager.LoadScene("Level8", LoadSceneMode.Single);
+		}
+		else
+		{
+			transform.position = new Vector2(PlayerPrefs.GetFloat("GhostStartPositionX"), PlayerPrefs.GetFloat("GhostStartPositionY"));
+		}
 	}
 	
 	void levelCompleted()
@@ -141,6 +148,9 @@ public class Ghost : MonoBehaviour
 				SceneManager.LoadScene("Level7", LoadSceneMode.Single);
 				break;
 			case "Level7":
+				SceneManager.LoadScene("Level8", LoadSceneMode.Single);
+				break;
+			case "Level8":
 				SceneManager.LoadScene("GameCompleted", LoadSceneMode.Single);
 				break;
 		}
